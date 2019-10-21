@@ -1,0 +1,60 @@
+
+@media only screen and (max-width : 576px) {
+  .xs-hide {
+    display: none;
+  }
+  .xs-show {
+    display: flex;
+  }
+  .slide {
+    flex-direction: column;
+  }
+  .name {
+    font-size: 26px;
+  }
+  .education-list {
+    &__item {
+      font-size: 16px;
+    }
+  }
+  .btn-swipe-description {
+    display: flex !important;
+  }
+  .slider {
+    border: none;
+    width: 100%;
+  }
+  .slide {
+    padding: 0;
+
+    &-description {
+      position: absolute;
+      top: 53px;
+      width: 100%;
+      max-width: inherit;
+      margin-right: 0;
+      padding: 15px 30px;
+      box-sizing: border-box;
+      display: none;
+      background: #fff;
+      &_show {
+        display: block;
+      }
+
+    }
+
+
+    &__about {
+      display: none;
+    }
+
+    &__footer {
+      display: block;
+    }
+    &__img {
+      img {
+        max-width: inherit;
+      }
+    }
+  }
+}

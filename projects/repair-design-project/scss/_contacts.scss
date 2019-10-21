@@ -1,0 +1,190 @@
+.contacts{
+background: $black;
+display: flex;
+position: relative;
+justify-content: center;
+
+
+
+.contacts-bg{
+background: linear-gradient( rgba(24, 24, 24, 0.9), rgba(24, 24, 24, 0.8) ),url(/assets/images/bg-contacts.png) no-repeat;
+width: 1440px;
+height: 954px;
+background-position: center center;
+-webkit-background-size: cover;
+background-size: cover;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+position: relative;
+
+
+.contacts-form{
+
+      width: 883px;
+      height: 443px;
+      background: $black;
+      margin-top: -200px;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, 0%);
+      position: absolute;
+      
+
+  .form-contacts{
+      width: 520px;
+      height: 375px;
+      margin: 34px auto 0 auto;
+      h1{
+        text-align : center; 
+        font-family: "Yeseva One", sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+      
+      }
+      .top-contacts-form{
+        width: 520px;
+        display: inline-flex;
+        justify-content: space-between;
+        height: 50px;
+
+      }
+      .top-contacts{
+       
+        flex-direction: column;
+        
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .name,
+      .phone{
+        width: 231px;
+       &::placeholder{
+         color: $white;
+       }
+      }
+
+      label{
+        margin-top: 40px;
+        color: $white-50;
+      }
+      .bottom-contacts{
+        margin-top: 80px;
+        margin-bottom: 30px;
+      }
+      .question{
+         &::placeholder{
+         color: $white;
+        
+       }
+        }
+       .wrap-checkbox{
+          margin: 0 auto;
+          width: 520px;
+          display: inline-flex;
+          margin-bottom: 30px;
+
+          .style-checkbox{
+            margin: 10px 100px;
+          }
+      
+      }
+      .form-bottom{
+        width: 520px;
+        display: flex;
+        justify-content: center;
+
+      .btn.bigger {
+      padding: 19px 0;
+      width: 207px;
+
+       .input-styles{
+         width: 340px;
+       }
+      
+      }
+    }
+
+
+ 
+  }
+
+      
+}
+     
+  .contacts-text{
+    
+    position: absolute;
+    height: 51px;
+    text-align: center;
+    margin: 300px auto 20px auto;
+    color: $gold;
+    font-family: "Yeseva One", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 589px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    text-transform: uppercase;
+        .tel {
+        color: $gold;    
+        text-decoration: none;
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  .contacts-icons{
+
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ 
+  
+    &__item {
+    height: 28px;
+    width: 28px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background: $gold;
+    border-radius: 50%;
+     &:hover{
+            transform: skew(-10deg);
+    }
+
+  }
+
+    }
+    .contacts-map{
+      margin: 450px auto 20px auto;
+      display: flex;
+      width: 925px;
+      height: 465px;
+      background:linear-gradient(black, black), url(/assets/images/map.png) no-repeat;
+      background-blend-mode: saturation;
+      
+      background-position: center right;
+      -webkit-background-size: cover;
+      background-size: cover;
+      
+
+      }
+    }
+
+ 
+
+    
+
+}
+
